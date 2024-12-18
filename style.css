@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 103, 165, 0.564);
+}
+.interface{
+    
+     background-color: rgba(137, 187, 197, 0.607);
+     box-shadow: 2px 1px 10px 1px rgb(53, 58, 59);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+   border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    
+}
+ #data{
+    width: 320px;
+    height: 90px;
+    background-color: rgba(238, 246, 246, 0.684);
+    border-radius: 25px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(42, 42, 44);
+    background: transparent;
+    border: none;
+    padding: -8%;
+    text-align: right;
+}
+input::placeholder{
+    text-align:right;
+    padding:-8px;
+    color: rgb(82, 82, 82);
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+}
+
+/* td{
+    margin: 5px;
+} */
+button{
+    height: 70px;
+    width: 70px;
+    font-size: xx-large;
+    font-weight: bold;
+     color: rgb(42, 42, 44);
+    background-color:rgba(0, 255, 255, 0.311);
+    background: transparent;
+    border-radius: 30%;
+    border: none;
+    margin:4px;
+    box-shadow: 2px 1px 10px 1px rgb(53, 58, 59);
+    cursor: pointer;
+    border: 1px solid rgb(55, 55, 55);
+}
+#eqlBtn{
+    background-color: rgb(16, 49, 111);
+    border: none;
+    color: cadetblue;
+    border: 1px solid black;
+}
+
+.operator{
+    color:rgb(16, 49, 111);
+}
